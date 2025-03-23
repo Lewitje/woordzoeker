@@ -1,0 +1,15 @@
+.word {
+    padding: 4px 8px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: all .15s;
+}
+
+.word:hover {
+    background-color: rgba(0, 0, 0, .1);
+}
+
+.wordFound {
+    background-color: hsl(100deg, 100%, 80%);
+    pointer-events: none;
+}

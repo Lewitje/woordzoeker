@@ -1,0 +1,103 @@
+[
+    {
+        "word": "Listen",
+        "anagram": "Silent",
+        "easy": true
+    },
+    {
+        "word": "Elbow",
+        "anagram": "Below",
+        "easy": true
+    },
+    {
+        "word": "Stone",
+        "anagram": "Notes",
+        "easy": true
+    },
+    {
+        "word": "Trace",
+        "anagram": "React",
+        "easy": true
+    },
+    {
+        "word": "Bread",
+        "anagram": "Beard",
+        "easy": true
+    },
+    {
+        "word": "Thing",
+        "anagram": "Night",
+        "easy": true
+    },
+    {
+        "word": "Spine",
+        "anagram": "Snipe",
+        "easy": true
+    },
+    {
+        "word": "Lemon",
+        "anagram": "Melon",
+        "easy": true
+    },
+    {
+        "word": "Alert",
+        "anagram": "Later",
+        "easy": true
+    },
+    {
+        "word": "Steal",
+        "anagram": "Least",
+        "easy": true
+    },
+
+    {
+        "word": "Teacher",
+        "anagram": "Cheater",
+        "easy": false
+    },
+    {
+        "word": "Gallery",
+        "anagram": "Largely",
+        "easy": false
+    },
+    {
+        "word": "Desert",
+        "anagram": "Rested",
+        "easy": false
+    },
+    {
+        "word": "Staring",
+        "anagram": "Ratings",
+        "easy": false
+    },
+    {
+        "word": "Replays",
+        "anagram": "Players",
+        "easy": false
+    },
+    {
+        "word": "Actress",
+        "anagram": "Casters",
+        "easy": false
+    },
+    {
+        "word": "Snapper",
+        "anagram": "Nappers",
+        "easy": false
+    },
+    {
+        "word": "Credits",
+        "anagram": "Directs",
+        "easy": false
+    },
+    {
+        "word": "Tingles",
+        "anagram": "Singlet",
+        "easy": false
+    },
+    {
+        "word": "Warning",
+        "anagram": "Wearing",
+        "easy": false
+    }
+]

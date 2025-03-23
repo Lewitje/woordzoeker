@@ -1,0 +1,12 @@
+.gameWrapper {
+  
+}
+
+@media (min-width: 768px) {
+  .gameWrapper {
+    display: grid;
+    grid-template-columns: 1fr 250px;
+    width: 100vw;
+    height: 100vh;
+  }
+}

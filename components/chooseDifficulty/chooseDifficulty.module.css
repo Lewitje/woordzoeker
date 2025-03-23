@@ -1,0 +1,24 @@
+.container {
+    text-align: center;
+    padding: 40px;
+}
+
+.difficultyPickerWrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.difficultyItemWrapper {
+    flex: 1;
+    background-color: white;
+    border-radius: 16px;
+    padding: 40px;
+}
+
+@media (min-width: 768px) {
+    .difficultyPickerWrapper {
+        flex-direction: row;
+    }
+}
