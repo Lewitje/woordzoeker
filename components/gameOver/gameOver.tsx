@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { useEffect, useState } from "react";
 import styles from "./gameOver.module.css";
 import Spacer from "../spacer/spacer";
 import Button from "../button/button";

@@ -2,7 +2,7 @@ import useGameStore from "@/stores/gameStore";
 import { useMemo } from "react";
 import styles from "./wordGrid.module.css";
 import clsx from "clsx";
-import type { IWordGrid, Word } from "@/types/common";
+import type { IWordGrid } from "@/types/common";
 import UseWordGrid from "@/hooks/useWordGridHandler";
 
 export type Cell = {
@@ -11,7 +11,7 @@ export type Cell = {
 };
 
 type RenderCellProps = {
-	letter: string;
+	letter: string | null;
 	columnIndex: number;
 	rowIndex: number;
 	onHighlightItem: (row: number, col: number) => void;
@@ -20,7 +20,7 @@ type RenderCellProps = {
 };
 
 type RenderRowProps = {
-	row: string[];
+	row: (string | null)[];
 	rowIndex: number;
 	onHighlightItem: (row: number, col: number) => void;
 	startCell: Cell;
@@ -66,6 +66,15 @@ const RenderCell = ({
 		const isSameRow = startCell.row === rowIndex && endCell.row === rowIndex;
 		const isSameColumn =
 			startCell.col === columnIndex && endCell.col === columnIndex;
+
+		if (
+			startCell.col === null ||
+			startCell.row === null ||
+			endCell.row === null ||
+			endCell.col === null
+		) {
+			return false;
+		}
 
 		// If it's in the same row check if it's between the selected columns
 		if (isSameRow) {

@@ -124,7 +124,7 @@ export function useGame() {
 	};
 
 	// Fills the empty places of the grid with random letters
-	const fillEmptyGrid = (grid) => {
+	const fillEmptyGrid = (grid: IWordGrid) => {
 		return grid.map((col) =>
 			col.map((cell) => (cell ? cell : getRandomLetter())),
 		);

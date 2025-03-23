@@ -1,7 +1,7 @@
 export type Word = {
-    word: string,
-    anagram: string,
-    easy: boolean
-}
+	word: string;
+	anagram: string;
+	easy: boolean;
+};
 
-export type IWordGrid = string[][];
+export type IWordGrid = (string | null)[][];
