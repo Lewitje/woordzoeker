@@ -6,7 +6,7 @@
 - Make the game fun.
 - Write tests.
 - Make it responsive.
-- Make it pretty.
+- ~~Make it pretty~~.
 
 ## Approach
 - First I created a quick design for the game in Figma.
